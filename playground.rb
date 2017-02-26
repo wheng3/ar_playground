@@ -15,25 +15,25 @@ end
 ####################################
 # Write your test code here
 
-# 1. Create a new user using new and save
+# 1. Create a new student using new and save
 
-# 2. Create a new user using create
+# 2. Create a new student using create
 
 # 3. Select all students
-# pay attention to the object that is returned to you, is it a User object or Active Record relation object?
+# pay attention to the object that is returned to you, is it a Student object or Active Record relation object?
 
 # Why can't you do Student.name or Student.email?
 
 # 4. Select the first student
-# pay attention to the object that is returned to you, is it a User object or Active Record relation object?
+# pay attention to the object that is returned to you, is it a Student object or Active Record relation object?
 
 # 5. Select the last student
-# pay attention to the object that is returned to you, is it a User object or Active Record relation object?
+# pay attention to the object that is returned to you, is it a Student object or Active Record relation object?
 
 # 6. Use each to iterate through the #<ActiveRecord::Relation> object to display the name of each student
 
 # 7. Find student by the name Dr. Lois Pfeff using where.
-# pay attention to the object that is returned to you, is it the User object or Active Record relation object?
+# pay attention to the object that is returned to you, is it the Student object or Active Record relation object?
 
 # What will the following return to you? (remember to comment out the code!)
 # p student.id
@@ -42,8 +42,8 @@ end
 # p student.age
 
 
-# 8. Find user by name using find_by
-# pay attention to the object that is returned to you, is it the User object or Active Record relation object?
+# 8. Find student by name using find_by
+# pay attention to the object that is returned to you, is it the Student object or Active Record relation object?
 
 # What will the following return to you?
 # p student.id
