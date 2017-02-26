@@ -15,24 +15,22 @@ end
 ####################################
 # Write your test code here
 
-# 1. Select all students
+# 1. Create a new user using new and save
+
+# 2. Create a new user using create
+
+# 3. Select all students
 # pay attention to the object that is returned to you, is it a User object or Active Record relation object?
 
 # Why can't you do Student.name or Student.email?
 
-# 2. Select the first student
+# 4. Select the first student
 # pay attention to the object that is returned to you, is it a User object or Active Record relation object?
 
-# 3. Select the last student
+# 5. Select the last student
 # pay attention to the object that is returned to you, is it a User object or Active Record relation object?
 
-# 4. Use each to iterate through the #<ActiveRecord::Relation> object to display the name of each student
-
-
-# 5. Create a new user using new and save
-
-
-# 6. Create a new user using create
+# 6. Use each to iterate through the #<ActiveRecord::Relation> object to display the name of each student
 
 # 7. Find student by the name Dr. Lois Pfeff using where.
 # pay attention to the object that is returned to you, is it the User object or Active Record relation object?
